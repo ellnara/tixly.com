@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(48, 48, 48);
+}
+.navigation {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  background-color: white;
+}
+a {
+  color: rgb(48, 48, 48);
+  padding: 20px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  border-bottom: 1px solid rgb(48, 48, 48);
+}
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  display: inline;
+}
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+#intro img {
+  position: relative;
+}
+#intro .summary {
+  position: absolute;
+  left: 100px;
+  top: 250px;
+  width: 500px;
+  display: grid;
+  justify-content: space-between;
+  height: 250px;
+  color: rgb(48, 48, 48);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#intro .summary h2 {
+  font-size: 55px;
+}
+.summary p {
+  width: 530px;
+  font-size: 16px;
+}
+button {
+  background-color: rgb(48, 48, 48);
+  color: white;
+  border: 1px;
+  width: 200px;
+  font-size: 14px;
+}
+button:hover {
+  background-color: rgb(78, 78, 78);
+  cursor: pointer;
+}
+#explore .title {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+}
+#explore .title h2 {
+  font-size: 35px;
+  font-weight: 300;
+}
+#explore .title p {
+  width: 600px;
+}
+#explore {
+  display: grid;
+  height: 800px;
+  align-items: space-around;
+}
+#explore .cards {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+#explore .cards-item img {
+  width: 390px;
+  height: 500px;
+}
+.cards-item button {
+  margin-left: 100px;
+  margin-top: -40px;
+  padding: 18px;
+}
+#our-story .summary {
+  display: grid;
+  height: 400px;
+  align-items: space-around;
+}
+#our-story .summary h2 {
+  font-size: 15px;
+}
+#our-story .summary h3 {
+  width: 460px;
+  font-size: 40px;
+  font-weight: lighter;
+}
+#our-story button {
+  background-color: rgb(29, 29, 29);
+}
+#our-story {
+  display: flex;
+  justify-content: space-around;
+}
+#our-story img {
+  width: 480px;
+}
